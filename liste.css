@@ -4,3 +4,12 @@
 .lista-ord {
   list-style-type: lower-greek;
 }
+.patrat {
+  list-style-type: square;
+}
+.abcd {
+  list-style-type: upper-alpha;
+}
+.roman {
+  list-style-type: upper-roman;
+}
