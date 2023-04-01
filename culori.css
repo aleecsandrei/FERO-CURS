@@ -46,7 +46,7 @@
   margin-right: 300px;
   margin-top: -730px;
   margin-bottom: 120px;
-  border-radius: 300px;
+  border-radius: 10px;
   border: 10px solid rgb(140, 0, 255);
   border: 20px dashed rgb(255, 255, 255);
   border: 20px dotted red;
@@ -55,10 +55,25 @@
   border: 20px ridge red;
   border: 20px inset blue;
   border: 20px outset blue;
-  /*reminder 1:37:48 sapt 1 partea 2*/
+  border-left: 10px #4347E8;
+  border-top-left-radius: 100%;
+ 
+  
 
   
 
+
+}
+.triunghi{
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right:130px solid transparent;
+  border-bottom: 100px solid rgb(234, 79, 198);
+  margin-left: 400px;
+  margin-top: 300px;
+  /*1.56.27 sapt 1 partea2*/
+  
 
 }
 
