@@ -1,0 +1,17 @@
+body {
+  font-family: "Alkatra", cursive;
+  background-color: rgb(238, 115, 160);
+}
+
+.alina-invata {
+  color: pink;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+}
+.border {
+  width: 600px;
+  height: 500px;
+  margin-left: 300px;
+  margin-top: -400px;
+}
