@@ -15,3 +15,29 @@ body {
   margin-left: 300px;
   margin-top: -400px;
 }
+.yout {
+  width: 1500px;
+  height: 500px;
+}
+.sonor {
+  margin-left: 550px;
+  margin-top: -600px;
+}
+.camion {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 30% 60%;
+}
+.fundal {
+  background-image: url(capra.jpg);
+  height: 190px;
+  width: 220px;
+  object-fit: cover;
+  border: 10px solid black;
+  border-radius: 20px;
+  color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40 50;
+}
