@@ -1,0 +1,26 @@
+.d-block {
+  display: block;
+}
+.d-inline {
+  display: inline;
+}
+.cls1 {
+  width: 100px;
+  height: 200px;
+  background-color: yellow;
+}
+.cls2 {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+}
+.cls3 {
+  width: 300px;
+  height: 500px;
+  background-color: blue;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
