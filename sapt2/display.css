@@ -24,3 +24,64 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.grid {
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /*grid-template-columns: repeat(4, 25%); /*prima valoare este numarul de coloane urmat de marimea coloanei in %*/
+  /* grid-template-columns: repeat(4, calc(100% / 4)); - calculeaza automat */
+  grid-template-columns: repeat(2, 1fr); /*fractii de 1 (fr) */
+  grid-column-gap: 50px; /*adauga margin de la stanga la dreapta */
+  row-gap: 100px; /*adauga margin de sus in jos, intre randuri */
+  /*de preferat sa se foloseasca metodele de mai sus deoarece pot aparea complicatii daca adaug margini particulare pe fiecare clasa in parte*/
+}
+
+.impar {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.impar .cls1 {
+  margin: 10px;
+  width: 25%;
+  /*margin afecteaza pozitionarea cu width*/
+}
+.five-rows {
+  display: grid;
+  grid-template-areas:
+    "a a b b c c"
+    "d d d e e e";
+  grid-column-gap: 30px;
+  row-gap: 30px;
+}
+.five-rows .cls1 {
+  width: 100%;
+}
+.five-rows .cls1:nth-of-type(1) {
+  grid-area: a;
+}
+.five-rows .cls1:nth-of-type(2) {
+  grid-area: b;
+}
+.five-rows .cls1:nth-of-type(3) {
+  grid-area: c;
+}
+.five-rows .cls1:nth-of-type(4) {
+  grid-area: d;
+}
+.five-rows .cls1:nth-of-type(5) {
+  grid-area: e;
+}
+/*e mai usor cu flex decat cu grid- respectiv se folosesc matrice pentru a creea tot.
+se foloseste mai rar,in situatii in care e un numar impar de elemente sau pe siteuri mobile*/
+.cls1.d-none {
+  display: none;
+}
+/*sterge tot*/
