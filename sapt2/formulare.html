@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="txt/css" href="formulare.css" />
+  </head>
+  <body>
+    <h1></h1>
+
+    <form action="php" method="post" class="formular">
+      <label>
+        Nume:
+        <input type="text" name="nume" placeholder="Numele tau" />
+      </label>
+      <label>
+        Prenume:
+        <input type="text" name="prenume" placeholder="Prenumele tau" />
+      </label>
+      <br />
+        Tip curs:<br />
+        <input type="checkbox" name="pisica" value="Web Design" />Web Design
+        <br />
+        <input type="checkbox" name="pisica" value="Web development" />Web
+        development
+      </label>
+      <br>
+      <label>
+        Sex: <br>
+        <input type="radio" name="gender" value="Feminin">Feminin
+        <input type="radio" name="gender" value="Masculin">Masculin
+        <br>
+        <input type="radio" name="gender" value="Nu vreau sa specific">Nu vreau sa specific
+      </label>
+      <br>
+      <label>
+        Data incepere:
+      <input type="date" name="data">
+    </label>
+    <br>
+    <label>
+        Email:
+        <input type="email" name="email" placeholder="adresa@email.com">
+    </label>
+    <br>
+    <label>
+        Nr. Telefon: <br>
+        <input type="tel" name="telefon" placeholder="Numarul tau de telefon">
+        <br>
+        <input type="number" name="telefon" placeholder="Numarul tau de telefon">
+        <br>
+    </label>
+            <select name="tip-curs" id="">
+                <option value="la-sala">La sala</option>
+                <br>
+                <option value="online">Online</option>
+                </select>
+                <br>
+                <!---textarea class="textarea1" placeholder="Mesajul tau" rows="10" cols="20"-->
+                Mesaj:
+                <br>
+                <textarea class="comment">Mesajul tau</textarea>
+                <br>
+                <input type="submit" name="submitInfo" value="submit">
+
+
+                <br>
+                <Input type="submit" name="submit" value="Trimitere">
+                <input type="reset" name="reset" value="Resetare formular">
+                <br>
+                Adauga fisier:
+                <br>
+                <input type="file">
+
+        
+    
+    </form>
+  </body>
+</html>
